@@ -48,10 +48,22 @@ K 12V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
 $ENDCMP
 #
+$CMP IRM-02-12S
+D 12V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 12V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
+$ENDCMP
+#
 $CMP IRM-02-15
 D 15V 2W miniature AC-DC module-type power supply MeanWell
 K 15V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
+$ENDCMP
+#
+$CMP IRM-02-15S
+D 15V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 15V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
 $ENDCMP
 #
 $CMP IRM-02-24
@@ -60,10 +72,22 @@ K 24V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
 $ENDCMP
 #
+$CMP IRM-02-24S
+D 24V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 24V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
+$ENDCMP
+#
 $CMP IRM-02-3.3
 D 3.3V 2W miniature AC-DC module-type power supply MeanWell
 K 3.3V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
+$ENDCMP
+#
+$CMP IRM-02-3.3S
+D 3.3V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 3.3V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
 $ENDCMP
 #
 $CMP IRM-02-5
@@ -72,10 +96,22 @@ K 5V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
 $ENDCMP
 #
+$CMP IRM-02-5S
+D 5V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 5V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
+$ENDCMP
+#
 $CMP IRM-02-9
 D 9V 2W miniature AC-DC module-type power supply MeanWell
 K 9V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
+$ENDCMP
+#
+$CMP IRM-02-9S
+D 9V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 9V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
 $ENDCMP
 #
 $CMP IRM-03-12S
@@ -136,6 +172,120 @@ $CMP IRM-20-5
 D 5V 4A 20W miniature AC-DC module-type power supply MeanWell
 K 5V 4A 20W miniature AC-DC module-type power supply
 F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
+$ENDCMP
+#
+$CMP RAC01-05SGB
+D 1 Watt Single Output EMC Class B AC/DC 5V 200mA power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
+$ENDCMP
+#
+$CMP RAC01-12SGB
+D 1 Watt Single Output EMC Class B AC/DC 12V 83mA power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
+$ENDCMP
+#
+$CMP RAC01-24SGB
+D 1 Watt Single Output EMC Class B AC/DC 24V 42mA power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
+$ENDCMP
+#
+$CMP RAC01-3.3SGB
+D 1 Watt Single Output EMC Class B AC/DC 3.3V 303mA power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
+$ENDCMP
+#
+$CMP RAC01-xxSGB
+D 1 Watt Single Output EMC Class B AC/DC power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-05SGA
+D 4 Watt Single Output EMC Class A - 5V 800mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-05SGB
+D 4 Watt Single Output EMC Class B - 5V 800mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-09SGA
+D 4 Watt Single Output EMC Class A - 9V 440mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-09SGB
+D 4 Watt Single Output EMC Class B - 9V 440mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-12SGA
+D 4 Watt Single Output EMC Class A - 12V 330mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-12SGB
+D 4 Watt Single Output EMC Class B - 12V 330mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-15SGA
+D 4 Watt Single Output EMC Class A - 15V 270mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-15SGB
+D 4 Watt Single Output EMC Class B - 15V 270mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-24SGA
+D 4 Watt Single Output EMC Class A - 24V 170mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-24SGB
+D 4 Watt Single Output EMC Class B - 24V 170mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-3.3SGA
+D 4 Watt Single Output EMC Class A - 3.3V 1210mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-3.3SGB
+D 4 Watt Single Output EMC Class B - 3.3V 1210mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-xxSGA
+D 4 Watt Single Output EMC Class A
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-xxSGB
+D 4 Watt Single Output EMC Class B
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
 $ENDCMP
 #
 $CMP TMLM04103

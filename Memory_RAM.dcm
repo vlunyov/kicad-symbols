@@ -1,9 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 628128
-D 1 M SRAM (128-kword × 8-bit) SOP/DIP32
-K SRAM
-F http://www.futurlec.com/Datasheet/Memory/628128.pdf
+D RAM 128 Ko
+K RAM 128KO
 $ENDCMP
 #
 $CMP AS4C4M16SA
@@ -18,46 +17,14 @@ K memory SRAM
 F http://www.alliancememory.com/pdf/AS6C1616(1).pdf
 $ENDCMP
 #
-$CMP CY7C199
-D 32K x 8 Static RAM
-K SRAM
-F http://www.cypress.com/part/cy7c199-1xw14
-$ENDCMP
-#
-$CMP DDR3_16bit
-D General DDR3(L) SDRAM 16bit 1-8Gb (BGA-96)
-K DDR3 DDR3L SDRAM
-F http://www.issi.com/WW/pdf/43-46TR16512A.pdf
-$ENDCMP
-#
-$CMP IDT7027_TQ100
-D HIGH-SPEED 32K x 16 DUAL-PORT STATIC RAM
-K SRAM
-F https://www.idt.com/document/dst/7027-data-sheet
-$ENDCMP
-#
-$CMP IDT7132
-D HIGH SPEED 2K x 8 DUAL PORT STATIC RAM
-K SRAM
-F https://www.idt.com/document/dst/713242-datasheet
+$CMP H5AN8G8NAFR-UHC
+D 8Gb CMOS Double Data Rate IV Synchronous RAM
+K DDR4 DRAM
+F https://www.skhynix.com/product/filedata/fileDownload.do?seq=7687
 $ENDCMP
 #
 $CMP IDT71V65903S
-D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18
-K SRAM
-F https://www.idt.com/document/dst/71v65703903-datasheet
-$ENDCMP
-#
-$CMP IDT7201
-D CMOS ASYNCHRONOUS FIFO
-K FIFO
-F https://www.idt.com/document/dst/720072017202-datasheet
-$ENDCMP
-#
-$CMP IDT7202
-D CMOS ASYNCHRONOUS FIFO
-K FIFO
-F https://www.idt.com/document/dst/720072017202-datasheet
+D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
 $ENDCMP
 #
 $CMP IDT7203
@@ -108,76 +75,46 @@ K DRAM
 F http://www.issi.com/WW/pdf/42-45S16400J.pdf
 $ENDCMP
 #
-$CMP MT41K128M16
-D Micron DDR3L SDRAM 2Gb – 16 Meg x 16 x 8 banks (FBGA-96)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/2gb_1_35v_ddr3l.pdf
+$CMP IS61C5128AL-10KLI
+D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 10ns, SOJ-36
+K SRAM
+F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
-$CMP MT41K128M8
-D Micron DDR3L SDRAM 1Gb – 16 Meg x 8 x 8 banks (FBGA-78)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf
+$CMP IS61C5128AL-10TLI
+D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 10ns, TSOP II-44
+K SRAM
+F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
-$CMP MT41K1G4
-D Micron DDR3L SDRAM 4Gb – 128 Meg x 4 x 8 banks (FBGA-78)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/4gb_1_35v_ddr3l.pdf
+$CMP IS61C5128AS-25HLI
+D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 25ns, STSOP I-32
+K SRAM
+F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
-$CMP MT41K1G8
-D Micron DDR3L SDRAM 8Gb – 128 Meg x 8 x 8 banks (FBGA-78)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/8gb_ddr3l.pdf
+$CMP IS61C5128AS-25QLI
+D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 25ns, SOP-32
+K SRAM
+F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
-$CMP MT41K256M16
-D Micron DDR3L SDRAM 4Gb – 32 Meg x 16 x 8 banks (FBGA-96)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/4gb_1_35v_ddr3l.pdf
+$CMP IS61C5128AS-25TLI
+D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 25ns, TSOP II-32
+K SRAM
+F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
-$CMP MT41K256M4
-D Micron DDR3L SDRAM 1Gb – 32 Meg x 4 x 8 banks (FBGA-78)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf
+$CMP IS64C5128AL-12CTLA3
+D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 12ns, TSOP II-44
+K SRAM
+F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
-$CMP MT41K256M8
-D Micron DDR3L SDRAM 2Gb – 32 Meg x 8 x 8 banks (FBGA-78)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/2gb_1_35v_ddr3l.pdf
-$ENDCMP
-#
-$CMP MT41K2G4
-D Micron DDR3L SDRAM 8Gb – 256 Meg x 4 x 8 banks (FBGA-78)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/8gb_ddr3l.pdf
-$ENDCMP
-#
-$CMP MT41K512M16
-D Micron DDR3L SDRAM 8Gb – 64 Meg x 16 x 8 banks (FBGA-96)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/8gb_ddr3l.pdf
-$ENDCMP
-#
-$CMP MT41K512M4
-D Micron DDR3L SDRAM 2Gb – 64 Meg x 4 x 8 banks (FBGA-78)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/2gb_1_35v_ddr3l.pdf
-$ENDCMP
-#
-$CMP MT41K512M8
-D Micron DDR3L SDRAM 4Gb – 64 Meg x 8 x 8 banks (FBGA-78)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/4gb_1_35v_ddr3l.pdf
-$ENDCMP
-#
-$CMP MT41K64M16
-D Micron DDR3L SDRAM 1Gb – 8 Meg x 16 x 8 banks (FBGA-96)
-K DDR3L SDRAM
-F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf
+$CMP IS64C5128AL-12KLA3
+D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 12ns, SOJ-36
+K SRAM
+F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
 #End Doc Library
