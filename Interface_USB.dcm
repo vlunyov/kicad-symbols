@@ -24,6 +24,12 @@ K usb uart wch serial
 F http://www.wch.cn/downloads/file/240.html
 $ENDCMP
 #
+$CMP CH340E
+D USB serial converter, UART, MSOP-10
+K USB UART Serial Converter Interface
+F https://www.mpja.com/download/35227cpdata.pdf
+$ENDCMP
+#
 $CMP CH340G
 D USB serial converter, UART, SOIC-16
 K USB UART Serial Converter Interface
@@ -364,6 +370,18 @@ $CMP MCP2221AxST
 D USB to I2C/UART Protocol Converter with GPIO, TSSOP-14
 K USB I2C UART Converter Bridge
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
+$ENDCMP
+#
+$CMP STULPI01A
+D High-speed USB On-The-Go ULPI transceiver
+K USB OTG HS PHY ULPI Interface
+F https://www.st.com/resource/en/datasheet/stulpi01a.pdf
+$ENDCMP
+#
+$CMP STULPI01B
+D High-speed USB On-The-Go ULPI transceiver
+K USB OTG HS PHY ULPI Interface
+F https://www.st.com/resource/en/datasheet/stulpi01b.pdf
 $ENDCMP
 #
 $CMP TPS2500DRC
